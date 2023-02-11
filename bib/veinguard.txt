@@ -1,0 +1,9 @@
+@ARTICLE{10041181,
+  author={Li, Yantao and Ruan, Song and Qin, Huafeng and Deng, Shaojiang and El-Yacoubi, Mounim A.},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={Transformer based Defense GAN Against Palm-vein Adversarial Attacks}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIFS.2023.3243782}}

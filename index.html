@@ -1,106 +1,242 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Song Ruan - Homepage</title>
+<!--
+Resume
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Song Ruan</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<script type="text/javascript" src="//clustrmaps.com/map_v2.js?d=3oEqJsYfiOcdbboZSNw7vF51Tg07i-AMnmtYt_vxKlU&cl=ffffff&w=a"></script>
+<style type="text/css">
+ /*@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");*/
+
+
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+    background-color : #CDCDCD;
+    font-size: 17px;
+}
+    .content
+	{
+    		width : 1200px;
+    		padding : 25px 30px;
+    		margin : 25px auto;
+    		background-color : #fff;
+    		box-shadow: 0px 0px 10px #999;
+    		border-radius: 15px;
+	}
+	table
+	{
+		padding: 5px;
+	}
+
+	table.pub_table,td.pub_td1,td.pub_td2
+	{
+		padding: 8px;
+		width: 1000px;
+        border-collapse: separate;
+        border-spacing: 15px;
+        margin-top: -5px;
+	}
+
+	td.pub_td1
+	{
+		width:50px;
+	}
+    td.pub_td1 img
+    {
+        height:120px;
+        width: 160px;
+    }
+
+	div#container
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
+		text-align: justify;
+		position: relative;
+		background-color: #FFF;
+	}
+	div#DocInfo
+	{
+		color: #3B3B3B;
+		height: 158px;
+	}
+	h4,h3,h2,h1
+	{
+		color: #3B3B3B;
+	}
+	h2
+	{
+		font-size:130%;
+	}
+	p
+	{
+		color: #5B5B5B;
+		margin-bottom: 50px;
+	}
+	p.caption
+	{
+		color: #9B9B9B;
+		text-align: left;
+		width: 600px;
+	}
+	p.caption2
+	{
+		color: #9B9B9B;
+		text-align: left;
+		width: 800px;
+	}
+	#header_img
+	{
+		position: absolute;
+		top: 0px; right: 0px;
+    }
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+
+    table.pub_table tr {
+        outline: thin dotted #666666;
+    }
+    .papericon {
+        border-radius: 8px;
+        -moz-box-shadow: 3px 3px 6px #888;
+        -webkit-box-shadow: 3px 3px 6px #888;
+        box-shadow: 3px 3px 6px #888;
+    }
+</style>
 </head>
 
-<link rel="stylesheet" type="text/css" href="myGlobalStyle.css">
-
-<style>
-  #sidebar{
-    margin-left: 60px;
-    margin-right: 180px;
-    border: solid 0 black;
-    float: left;
-    margin-bottom: 0;
-  }
-  #bio{
-    margin-top: 20px;
-    /*text-align: center;*/
-  }
-  #me{
-    border: 0 solid black;
-    margin-bottom: 50px;
-    border-radius: 10px;
-  }
-</style>
 
 <body>
+<div class="content">
+	<div id="container">
+		<div align="center">
+			<table>
+			<tbody><tr>
+			<td><img id="myPicture" src="images/ruansong_profile.jpg" style="float:left; padding-right:10px" height="200px"></td>
+			<td>
+			<div id="DocInfo">
+				<h1><strong>Song Ruan</strong><font size="6"> 阮松</font></h1>
+				<h2>Ph.D. Candidate</h2>
+				<strong>Affiliation</strong>: College of Computer Science, Chong Qing University<br />
+				<strong>Current Address</strong>: Chong Qing, China<br />
+				<strong>Email</strong>: rsmung@cqu.edu.cn<br />
+		<!--							<a href="https://scholar.google.com/citations?user=xdYS1e0AAAAJ&hl=zh-CN">Google Scholar</a>-->
+		<!--							&bull; <a href="https://www.semanticscholar.org/author/Zehui-Liao/2028786413">Semantic Scholar</a>-->
+				&bull; <a href="https://github.com/RSMung">GitHub</a>
+			</div><br>
+			</td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
 
-<div class="headerpage"></div>
+		<br>
 
-<div class="container">
-  <div id="sidebar">
-    <img src="./images/ruansong_profile.jpg" vspace="50 px" width="250 px" id="me" itemprop="photo">
-  </div>
-  <div id="bio">
-    <br>
+		<h2><strong>Biography</strong></h2>
+		<ul>
+			<li><strong>Introduction</strong></li>
+			<ul>
+				Mr. Song Ruan is a Ph.D. Candidate
+				in the<a href="http://www.cs.cqu.edu.cn/ENGLISH/Home.htm" target="_blank"> College of Computer Science, Chong Qing University</a>(CQU).
+				His research focuses on deep learning techniques for biometric authentication, with particular interests in AI security and domain adaptation.
+				<br>
+			</ul>
+			<li><strong>Education Background</strong></li>
+			<ul>
+				<li>2020.09-Present &nbsp; &bull;&nbsp;&nbsp; Ph.D. Candidate &nbsp;  &nbsp;&bull;&nbsp; Supervisor: <a href="http://www.cs.cqu.edu.cn/info/1352/4237.htm" target="_blank">Prof. Yantao Li</a> and <a href="https://scsie2014.ctbu.edu.cn/info/1075/4027.htm" target="_blank">Prof. Huafeng Qin</a>.<br></li>
+				<h6>College of Computer Science, Chong Qing University, China</h6>
+				<li>2016.09-2020.06 &nbsp; &bull;&nbsp; B.Eng. Degree</li>
+				<h6>School of Automation, <a href="http://english.whut.edu.cn/" target="_blank">Wuhan University of Technology</a> (WHUT), China</h6>
+			</ul>
+		<!--		<li><strong>Internship Experience</strong></li>-->
+		<!--			<ul>-->
+		<!--			<li></li>-->
+		<!--			</ul>-->
+		</ul>
 
-    <h1>
-      <span itemprop="name">Song Ruan <font size="5">阮松</font> </span>
-    </h1>
+		<h2><strong>News</strong></h2>
+		<div style="height: 35px; overflow: auto;">
+			<li>[2023-01] 1 paper accepted to <a href="https://ieeexplore.ieee.org/document/10041181" target="_blank">TIFS</a>.</li>
+			</ul>
+		</div>
 
-    <br>
+		<br>
 
-    <p style="line-height:23px;">
-      Ph.D. candidate
-      <br>
-      <br>
-      <a href="http://www.cs.cqu.edu.cn/ENGLISH/Home.htm" target="_blank">College of Computer Science</a>
-      <br>
-      <br>
-      <a href="http://english.cqu.edu.cn/" target="_blank">Chong Qing University</a>
-      <br>
-      <br>
-      Email: rsmung@cqu.edu.cn
-      <br>
-    </p>
+		<h2><strong>Publications </strong></h2>
+		<ul>
+			* indicates corresponding authorship
+		</ul>
+		<table class="pub_table" >
+			<tbody>
+				<tr>
+					<td class="pub_td1"><img src="images/TIFS2023.png" class="papericon"></td>
+					<td class="pub_td2">
+						Yantao Li, <u><strong>Song Ruan</strong></u>, Huafeng Qin*, Shaojiang Deng, Mounim A. El-Yacoubi.<br>
+						<b>Transformer based Defense GAN Against Palm-vein Adversarial Attacks</b><br>
+						 <i>IEEE Transactions on Information Forensics and Security(TIFS)</i>, Jan 2023<br>
+						[<a href="https://ieeexplore.ieee.org/document/10041181" target="_blank">Paper</a>]
+	<!--					, <a href="https://github.com/axz520/URL">Code</a>-->
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-    <br>
 
-    <p class="external">
-<!--      <a class="first">Google Scholar</a>-->
-      <a href="https://github.com/RSMung" target="_blank">GitHub</a>
-      <a href="https://blog.csdn.net/lvdoujack" target="_blank">CSDN</a>
-    </p>
-  </div>
-</div>
+<!--	<h2><strong>Patents</strong></h2>-->
+<!--        <ul>-->
+<!--			<li>Yong Xia, <u>Zehui Liao</u>, and Yutong Xie. A Medical Image Classification Method for Learning with Ambiguously-labeled Data. Chinese Patent ZL202110203910.X, issued on 2022/11/29.</li>-->
+<!--		</ul>-->
 
-<div class="container">
-  <h2>Short Bio</h2>
-  <p>
-    Mr. Song Ruan is a Ph.D. Candidate
-    in the<a href="http://www.cs.cqu.edu.cn/ENGLISH/Home.htm" target="_blank"> College of Computer Science, Chong Qing University</a>(CQU)
-    advised by <a href="http://www.cs.cqu.edu.cn/info/1352/4237.htm" target="_blank">Prof. Yantao Li</a>
-    and <a href="https://scsie2014.ctbu.edu.cn/info/1075/4027.htm" target="_blank">Prof. Huafeng Qin</a>.
-    <br>
-    I received my bachelor's degree in automation from <a href="http://english.whut.edu.cn/" target="_blank">Wuhan University of Technology</a>(WHUT) in 2020.
-  </p>
-</div>
+		<h2><strong>Awards and Honors</strong></h2>
+		<ul>
+			<li>[2023.09]  &nbsp;&bull;&nbsp; Excellent student of Chongqing University </li>
+			<li>[2021.09]  &nbsp;&bull;&nbsp; Excellent student of Chongqing University </li>
+			<li>[2018.05]  &nbsp;&bull;&nbsp; Third prize of The 11th Central China Mathematical Modeling Invitational </li>
+		</ul>
 
-<div class="container">
-  <h2>
-    News
-<!--    <small><a href="https://twitter.com/liuziwei7">[Twitter]</a></small>-->
-  </h2>
-  <p>
-    [2023-01] 1 paper accepted to <a href="https://ieeexplore.ieee.org/document/10041181" target="_blank">TIFS</a>.
-</div>
+		<h2><strong>Reviewer</strong></h2>
+		<ul>
+		<h5><li>Conference Review</li></h5>
+			<ul>
+			<li>ICONIP 2023, The 30th International Conference on Neural Information Processing</li>
+			<li>CHASE 2023, The 8th IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies</li>
+			</ul>
+		<h5><li>Journal Review</li></h5>
+			<ul>
+			<li>
+				IEEE IoTJ, IEEE Internet of Things Journal</li>
+			</ul>
+		</ul>
 
-<div class="footerpage"></div>
+		<h2><strong>Teaching Assistant</strong></h2>
+		<ul>
+			<li>Fundamentals of Program Design (C++), CQU, 2023 Fall</li>
+			<li>Database System, CQU, 2023 Spring</li>
+			<li>Fundamentals of Program Design (C++), CQU, 2022 Fall</li>
+			<li>Fundamentals of Program Design (C++), CQU, 2021 Fall</li>
+		</ul>
 
-<script src="https://how2j.cn/study/jquery.min.js"></script>
-<script>
-  $(function(){
-    /*
-     * 公共部分
-     * 导航栏
-     */
-    $(".headerpage").load("header.html");
-    $(".footerpage").load("footer.html");
-  });
-</script>
-
-</body>
+		<p>
+			<center>
+	<!--			<td><div id="clustrmaps-widget" style="width:40%">-->
+	<!--			<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=3oEqJsYfiOcdbboZSNw7vF51Tg07i-AMnmtYt_vxKlU&cl=ffffff&w=a"></script>-->
+	<!--			</div></td>-->
+				&copy; Song Ruan | Last updated: Oct. 2023
+					<div class="text">
+						<b>Acknowledgement:</b> This page is based on <a href="https://ycwu1997.github.io/eli/">this template.</a></a>
+					</div>
+			</center>
+		</p>
+	</div>
+</div></body>
 </html>

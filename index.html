@@ -6,7 +6,7 @@ Resume
 -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Song Ruan</title>
+<title>Song Ruan's Homepage</title>
 
 <script src="https://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
 <link href="https://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
@@ -108,6 +108,22 @@ body
         -webkit-box-shadow: 3px 3px 6px #888;
         box-shadow: 3px 3px 6px #888;
     }
+	.sep_container{
+		/*border: 1px black solid;*/
+		display: flex;
+	}
+	.sep_container_left{
+		flex: 2;
+		text-align: left;
+	}
+ 	.sep_container_right{
+		flex: 1;
+		text-align: right;
+	 }
+	.section_title{
+		font-size: 22px;
+		font-weight: 700;/*加粗*/
+	}
 </style>
 </head>
 
@@ -118,12 +134,12 @@ body
 		<div align="center">
 			<table>
 			<tbody><tr>
-			<td><img id="myPicture" src="images/ruansong_profile.jpg" style="float:left; padding-right:10px" height="200px"></td>
+<!--			<td><img id="myPicture" src="images/ruansong_profile.jpg" style="float:left; padding-right:10px" height="200px"></td>-->
 			<td>
-			<div id="DocInfo">
+			<div id="DocInfo" align="center">
 				<h1><strong>Song Ruan</strong><font size="6"> 阮松</font></h1>
 				<h2>Ph.D. Candidate</h2>
-				<strong>Affiliation</strong>: College of Computer Science, Chong Qing University<br />
+				<strong>Affiliation</strong>: College of Computer Science, Chongqing University<br />
 				<strong>Current Address</strong>: Chong Qing, China<br />
 				<strong>Email</strong>: rsmung@cqu.edu.cn<br />
 		<!--							<a href="https://scholar.google.com/citations?user=xdYS1e0AAAAJ&hl=zh-CN">Google Scholar</a>-->
@@ -136,31 +152,85 @@ body
 			</table>
 		</div>
 
-		<br>
+		<div class="section_title">Education</div>
+		<div>
+			<!--Ph.D.-->
+			<div class="sep_container">
+				<div class="sep_container_left"><h5><strong>Chongqing University (CQU)</strong></h5></div>
+				<div class="sep_container_right"><h5>Chongqing, China</h5></div>
+			</div>
 
-		<h2><strong>Biography</strong></h2>
-		<ul>
-			<li><strong>Introduction</strong></li>
-			<ul>
-				Mr. Song Ruan is a Ph.D. Candidate
-				in the<a href="http://www.cs.cqu.edu.cn/ENGLISH/Home.htm" target="_blank"> College of Computer Science, Chong Qing University</a>(CQU).
-				His research focuses on deep learning techniques for biometric authentication, with particular interests in <i>AI Security</i> and <i>Domain Adaptation</i>.
-				<br>
-			</ul>
-			<li><strong>Education Background</strong></li>
-			<ul>
-				<li>2022.09-Present &nbsp; &bull;&nbsp; Ph.D. Candidate &nbsp;  &nbsp;&bull;&nbsp; Supervisor: <a href="http://www.cs.cqu.edu.cn/info/1352/4237.htm" target="_blank">Prof. Yantao Li</a> and <a href="https://scsie2014.ctbu.edu.cn/info/1075/4027.htm" target="_blank">Prof. Huafeng Qin</a>.<br></li>
-				<h5>College of Computer Science, Chong Qing University (CQU), China</h5>
-				<li>2020.09-2022.09 &nbsp; &bull;&nbsp; M.sc. Candidate &nbsp;  &nbsp;&bull;&nbsp; Supervisor: <a href="http://www.cs.cqu.edu.cn/info/1352/4237.htm" target="_blank">Prof. Yantao Li</a> and <a href="https://scsie2014.ctbu.edu.cn/info/1075/4027.htm" target="_blank">Prof. Huafeng Qin</a>.<br></li>
-				<h5>College of Computer Science, Chong Qing University (CQU), China</h5>
-				<li>2016.09-2020.06 &nbsp; &bull;&nbsp; B.Eng. Degree</li>
-					<h5>School of Automation, <a href="http://english.whut.edu.cn/" target="_blank">Wuhan University of Technology</a> (WHUT), China</h5>
-			</ul>
-		<!--		<li><strong>Internship Experience</strong></li>-->
-		<!--			<ul>-->
-		<!--			<li></li>-->
-		<!--			</ul>-->
-		</ul>
+			<div class="sep_container">
+				<h5 class="sep_container_left" style=" margin-top: 0;">
+					<strong>Ph.D. Candidate</strong>,  College of Computer Science
+				</h5>
+				<h5 class="sep_container_right" style=" margin-top: 0;">
+					2022.09 - Expected 2026.06
+				</h5>
+			</div>
+
+			<div class="sep_container">
+				<h5 class="sep_container_left" style=" margin-top: 0;">
+					Supervisor: <a href="http://www.cs.cqu.edu.cn/info/1352/4237.htm" target="_blank">Prof. Yantao Li</a>
+				</h5>
+				<h5 class="sep_container_right" style=" margin-top: 0;">
+					GPA: 4.32/5.0 <strong>(TOP 1)</strong>
+				</h5>
+			</div>
+
+			<!--M.Sc-->
+			<div class="sep_container">
+				<div class="sep_container_left"><h5><strong>Chongqing University (CQU)</strong></h5></div>
+				<div class="sep_container_right"><h5>Chongqing, China</h5></div>
+			</div>
+
+			<div class="sep_container">
+				<h5 class="sep_container_left" style=" margin-top: 0;">
+					<strong>M.Sc. Program (Transferred to Ph.D. without Degree)</strong>
+				</h5>
+				<h5 class="sep_container_right" style=" margin-top: 0;">
+					2020.09 - 2022.09
+				</h5>
+			</div>
+
+			<div class="sep_container">
+				<h5 class="sep_container_left" style=" margin-top: 0;">
+					College of Computer Science, Supervisor: Prof. Shaojiang Deng
+				</h5>
+				<h5 class="sep_container_right" style=" margin-top: 0;">
+					GPA: 3.25/5.0
+				</h5>
+			</div>
+
+			<!--bachelor-->
+			<div class="sep_container">
+				<div class="sep_container_left"><h5><strong>Wuhan University of Technology (WHUT)</strong></h5></div>
+				<div class="sep_container_right"><h5>Hubei, China</h5></div>
+			</div>
+
+			<div class="sep_container">
+				<h5 class="sep_container_left" style=" margin-top: 0;">
+					<strong>B.Eng. Degree</strong>
+				</h5>
+				<h5 class="sep_container_right" style=" margin-top: 0;">
+					2016.09 – 2020.06
+				</h5>
+			</div>
+
+			<div class="sep_container">
+				<h5 class="sep_container_left" style=" margin-top: 0;">
+					School of Automation
+				</h5>
+				<h5 class="sep_container_right" style=" margin-top: 0;">
+					GPA: 3.24/5.0
+				</h5>
+			</div>
+		</div>
+
+		<div class="section_title">Research Interests</div>
+		<div>
+			Deep learning techniques for biometric authentication, with particular interests in <i>AI Security</i> and <i>Domain Adaptation</i>.
+		</div>
 
 <!--		<h2><strong>News</strong></h2>-->
 <!--		<div style="height: 35px; overflow: auto;">-->
@@ -168,8 +238,10 @@ body
 <!--			</ul>-->
 <!--		</div>-->
 
-		<h2><strong>Programming Skills</strong></h2>
-		<table style="width:950px; margin-left: 20px; ">
+		<br>
+
+		<div class="section_title">Programming Skills</div>
+		<table style="width:950px; margin-left: 20px;">
 <!--			<tr>-->
 <!--				<td rowspan="2" style="text-align: center"><h5><i><strong>Programming<br>Languages</strong></i></h5></td>-->
 <!--				<td rowspan="2"><h5>C/C++, Java, Python</h5></td>-->
@@ -184,15 +256,15 @@ body
 			</tr>
 		</table>
 
-		<h2><strong>Publications </strong></h2>
+		<div class="section_title">Publication</div>
 		<div style="margin-left: 20px">* indicates corresponding authorship</div>
 		<table class="pub_table" >
 			<tbody>
 				<tr>
-					<td class="pub_td1"><img width="240px" height="120px" src="images/TIFS2023-3.png" class="papericon"></td>
+					<td class="pub_td1"><img width="260px" height="120px" src="images/TIFS2023-2.png" class="papericon"></td>
 					<td class="pub_td2">
-						Yantao Li, <u><strong>Song Ruan</strong></u>, Huafeng Qin*, Shaojiang Deng, Mounim A. El-Yacoubi.<br>
 						<b>Transformer based Defense GAN Against Palm-vein Adversarial Attacks</b><br>
+						Yantao Li, <u><strong>Song Ruan</strong></u>, Huafeng Qin*, Shaojiang Deng, Mounim A. El-Yacoubi.<br>
 						 <i>IEEE Transactions on Information Forensics and Security(TIFS)</i>, Jan 2023<br>
 						[<a href="https://ieeexplore.ieee.org/document/10041181" target="_blank">Paper</a>]
 	<!--					, <a href="https://github.com/axz520/URL">Code</a>-->
@@ -207,14 +279,14 @@ body
 <!--			<li>Yong Xia, <u>Zehui Liao</u>, and Yutong Xie. A Medical Image Classification Method for Learning with Ambiguously-labeled Data. Chinese Patent ZL202110203910.X, issued on 2022/11/29.</li>-->
 <!--		</ul>-->
 
-		<h2><strong>Awards and Honors</strong></h2>
+		<div class="section_title">Awards and Honors</div>
 		<ul>
 			<li>[2023.09]  &nbsp;&bull;&nbsp; Outstanding student of Chongqing University </li>
 			<li>[2021.09]  &nbsp;&bull;&nbsp; Outstanding student of Chongqing University </li>
 			<li>[2018.05]  &nbsp;&bull;&nbsp; Third prize of The 11th Central China Mathematical Modeling Invitational </li>
 		</ul>
 
-		<h2><strong>Reviewer</strong></h2>
+		<div class="section_title">Reviewer</div>
 		<ul>
 			<li>Conference Review</li>
 			<ul>
@@ -226,15 +298,16 @@ body
 				<li>
 					IEEE IoTJ, IEEE Internet of Things Journal
 				</li>
+				<li>
+					IEEE TIFS, IEEE Transactions on Information Forensics and Security
+				</li>
 			</ul>
 		</ul>
 
-		<h2><strong>Teaching Assistant</strong></h2>
+		<div class="section_title">Teaching Assistant</div>
 		<ul>
-			<li>Fundamentals of Program Design (C++), CQU, 2023 Fall</li>
-			<li>Database System, CQU, 2023 Spring</li>
-			<li>Fundamentals of Program Design (C++), CQU, 2022 Fall</li>
-			<li>Fundamentals of Program Design (C++), CQU, 2021 Fall</li>
+			<li>Fundamentals of Program Design (C++)</li>
+			<li>Database System</li>
 		</ul>
 
 		<p>

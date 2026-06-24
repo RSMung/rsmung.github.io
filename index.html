@@ -10,161 +10,7 @@
     <script src="https://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
     <link href="https://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
     <script src="https://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
-    
-    <style type="text/css">
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Source Sans Pro', sans-serif;
-            background-color: #f5f5f5;
-            font-size: 16px;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        /* 外层容器 - 自适应宽度 */
-        .content {
-            max-width: 1000px;
-            width: 92%;
-            padding: 30px 25px;
-            margin: 30px auto;
-            background-color: #fff;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
-            border-radius: 12px;
-        }
-
-        /* 标题样式 */
-        .section_title {
-            font-size: 22px;
-            font-weight: 700;
-            color: #2c5aa0;
-            margin-top: 25px;
-            margin-bottom: 8px;
-        }
-
-        /* 分割线 */
-        .section_line {
-            height: 1px;
-            background-color: #ddd;
-            margin-bottom: 15px;
-        }
-
-        /* 个人信息 */
-        .profile {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .profile h1 {
-            font-size: 28px;
-            font-weight: 600;
-            color: #222;
-        }
-
-        .profile .chinese-name {
-            font-size: 24px;
-            margin-left: 10px;
-        }
-
-        .profile p {
-            font-size: 16px;
-            color: #555;
-            margin-top: 5px;
-        }
-
-        /* 简介 */
-        .bio {
-            text-align: justify;
-            margin: 15px 0;
-            font-size: 16px;
-            color: #444;
-        }
-
-        /* 左右布局（教育经历） */
-        .sep_container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 8px;
-        }
-
-        .sep_container_left {
-            flex: 1;
-            min-width: 250px;
-        }
-
-        .sep_container_right {
-            text-align: right;
-            white-space: nowrap;
-        }
-
-        /* 论文列表 */
-        .pub_table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-
-        .pub_td1 {
-            width: 28%;
-            padding: 12px 10px 12px 0;
-            vertical-align: top;
-        }
-
-        .pub_td2 {
-            width: 72%;
-            padding: 12px 0;
-            vertical-align: top;
-        }
-
-        .papericon {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-        }
-
-        /* 列表样式 */
-        ul {
-            list-style-type: disc;
-            padding-left: 22px;
-            margin-top: 8px;
-        }
-
-        li {
-            margin-bottom: 6px;
-        }
-
-        /* 页脚 */
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #777;
-        }
-
-        /* 移动端小屏优化 */
-        @media (max-width: 768px) {
-            .pub_td1, .pub_td2 {
-                display: block;
-                width: 100%;
-                padding: 8px 0;
-            }
-            .sep_container {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .sep_container_right {
-                text-align: left;
-                margin-top: 3px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -177,7 +23,7 @@
 
         <!-- 简介 -->
         <div class="bio">
-            I am currently pursuing the Ph.D. degree with the College of Computer Science, Chongqing University, China.
+            I am currently pursuing the PhD degree with the College of Computer Science, Chongqing University, China.
         </div>
 
         <!-- 教育经历 -->
@@ -185,16 +31,16 @@
         <div class="section_line"></div>
         <div>
             <div class="sep_container">
-                <div class="sep_container_left"><h5>[2024.11 - 2025.11] Visiting Ph.D. Student, <strong>The University of Western Australia (UWA)</strong>, Perth, Australia</h5></div>
+                <div class="sep_container_left"><h5>[2024.11 - 2025.11] Visiting PhD Student, <strong>The University of Western Australia (UWA)</strong>, Perth, Australia</h5></div>
             </div>
             <div class="sep_container">
-                <div class="sep_container_left"><h5>[2022.09 - Expected 2026.06] Ph.D. Student, <strong>Chongqing University (CQU)</strong>, Chongqing, China</h5></div>
+                <div class="sep_container_left"><h5>[2022.09 - Expected 2026.06] PhD Student, <strong>Chongqing University (CQU)</strong>, Chongqing, China</h5></div>
             </div>
             <div class="sep_container">
                 <div class="sep_container_left"><h5>[2020.09 - 2022.09] Master Student, <strong>Chongqing University (CQU)</strong>, Chongqing, China</h5></div>
             </div>
             <div class="sep_container">
-                <div class="sep_container_left"><h5>[2016.09 – 2020.06] B.Eng. Degree in Automation, <strong>Wuhan University of Technology (WHUT)</strong>, Hubei, China</h5></div>
+                <div class="sep_container_left"><h5>[2016.09 – 2020.06] Bachelor's Degree in Automation, <strong>Wuhan University of Technology (WHUT)</strong>, Hubei, China</h5></div>
             </div>
         </div>
 
@@ -208,42 +54,96 @@
         <div class="section_line"></div>
         <div style="margin-left: 5px; font-size: 15px; color: #666;">* indicates supervisor, &dagger; indicates corresponding authorship</div>
 
-        <table class="pub_table">
-            <tr>
-                <td class="pub_td1"><img src="images/framework-spa.png" class="papericon"></td>
-                <td class="pub_td2">
-                    <b>SPA: Stable and Precise Alignment for Efficient Cross-Domain Palmprint Recognition</b><br>
-                    <u>Song Ruan</u>, Yantao Li<sup>*&dagger;</sup>, Huafeng Qin<sup>&dagger;</sup>, Naeha Sharif, Farid Boussaid, Mohammed Bennamoun.<br>
-                    <i>IEEE Transactions on Information Forensics and Security (TIFS)</i>, May 2026
-                </td>
-            </tr>
-            <tr>
-                <td class="pub_td1"><img src="images/PromptPalm-Method.png" class="papericon"></td>
-                <td class="pub_td2">
-                    <b>PromptPalm: Textual Prompt Template Substitution for Privacy-Preserving Palmprint Recognition</b><br>
-                    <u>Song Ruan</u>, Yantao Li<sup>*&dagger;</sup>, Huafeng Qin<sup>&dagger;</sup>.<br>
-                    <i>IEEE International Conference on Multimedia and Expo (ICME)</i>, Mar 2026
-                </td>
-            </tr>
-            <tr>
-                <td class="pub_td1"><img src="images/LSFM-Method.png" class="papericon"></td>
-                <td class="pub_td2">
-                    <b>LSFM: Light Style and Feature Matching for Efficient Cross-Domain Palmprint Recognition</b><br>
-                    <u>Song Ruan</u>, Yantao Li<sup>*&dagger;</sup>, Huafeng Qin<sup>&dagger;</sup>.<br>
-                    <i>IEEE Transactions on Information Forensics and Security (TIFS)</i>, Oct 2024<br>
-                    [<a href="https://ieeexplore.ieee.org/document/10711952" target="_blank">Paper</a>]
-                </td>
-            </tr>
-            <tr>
-                <td class="pub_td1"><img src="images/TIFS2023-2.png" class="papericon"></td>
-                <td class="pub_td2">
-                    <b>Transformer based Defense GAN Against Palm-vein Adversarial Attacks</b><br>
-                    Yantao Li<sup>*</sup>, <u>Song Ruan</u>, Huafeng Qin<sup>&dagger;</sup>, Shaojiang Deng, Mounim A. El-Yacoubi.<br>
-                    <i>IEEE Transactions on Information Forensics and Security (TIFS)</i>, Jan 2023<br>
-                    [<a href="https://ieeexplore.ieee.org/document/10041181" target="_blank">Paper</a>]
-                </td>
-            </tr>
-        </table>
+        <div class="pub_item">
+            <div class="pub_img">
+                <img src="images/framework-spa.png" class="papericon">
+            </div>
+
+            <div class="pub_info">
+                <div class="pub_title">
+                    SPA: Stable and Precise Alignment for Efficient Cross-Domain Palmprint Recognition
+                </div>
+
+                <u><b>Song Ruan</b></u>, Yantao Li<sup>*&dagger;</sup>,
+                Huafeng Qin<sup>&dagger;</sup>, Naeha Sharif,
+                Farid Boussaid, Mohammed Bennamoun.<br>
+
+                <i>IEEE Transactions on Information Forensics and Security (TIFS)</i>, May 2026<br>
+
+                [<a href="https://ieeexplore.ieee.org/document/11523544" target="_blank">Paper</a>]
+            </div>
+
+        </div>
+
+
+        <div class="pub_item">
+
+            <div class="pub_img">
+                <img src="images/PromptPalm-Method.png" class="papericon">
+            </div>
+
+            <div class="pub_info">
+
+                <div class="pub_title">
+                    PromptPalm: Textual Prompt Template Substitution for Privacy-Preserving Palmprint Recognition
+                </div>
+
+                <u><b>Song Ruan</b></u>, Yantao Li<sup>*&dagger;</sup>,
+                Huafeng Qin<sup>&dagger;</sup>.<br>
+
+                <i>IEEE International Conference on Multimedia and Expo (ICME)</i>, Mar 2026
+            </div>
+
+        </div>
+
+
+        <div class="pub_item">
+
+            <div class="pub_img">
+                <img src="images/LSFM-Method.png" class="papericon">
+            </div>
+
+            <div class="pub_info">
+
+                <div class="pub_title">
+                    LSFM: Light Style and Feature Matching for Efficient Cross-Domain Palmprint Recognition
+                </div>
+
+                <u><b>Song Ruan</b></u>, Yantao Li<sup>*&dagger;</sup>,
+                Huafeng Qin<sup>&dagger;</sup>.<br>
+
+                <i>IEEE Transactions on Information Forensics and Security (TIFS)</i>, Oct 2024<br>
+
+                [<a href="https://ieeexplore.ieee.org/document/10711952" target="_blank">Paper</a>]
+            </div>
+
+        </div>
+
+
+        <div class="pub_item">
+
+            <div class="pub_img">
+                <img src="images/TIFS2023-2.png" class="papericon">
+            </div>
+
+            <div class="pub_info">
+
+                <div class="pub_title">
+                    Transformer based Defense GAN Against Palm-vein Adversarial Attacks
+                </div>
+
+                Yantao Li<sup>*</sup>, <u><b>Song Ruan</b></u>,
+                Huafeng Qin<sup>&dagger;</sup>,
+                Shaojiang Deng,
+                Mounim A. El-Yacoubi.<br>
+
+                <i>IEEE Transactions on Information Forensics and Security (TIFS)</i>, Jan 2023<br>
+
+                [<a href="https://ieeexplore.ieee.org/document/10041181" target="_blank">Paper</a>]
+
+            </div>
+
+        </div>
 
         <!-- 奖项 -->
         <div class="section_title">Awards and Honors</div>
@@ -261,7 +161,7 @@
 
         <!-- 页脚 -->
         <div class="footer">
-            &copy; Song Ruan | Last updated: May 2026<br>
+            &copy; Song Ruan | Last updated: June 2026<br>
             Acknowledgement: This page is based on <a href="https://ycwu1997.github.io/eli/">this template</a>.
         </div>
     </div>

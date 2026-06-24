@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 外层容器 - 自适应宽度 */
+.content {
+    max-width: 1000px;
+    width: 92%;
+    padding: 30px 25px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+/* 标题样式 */
+.section_title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2c5aa0;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+/* 分割线 */
+.section_line {
+    height: 1px;
+    background-color: #ddd;
+    margin-bottom: 15px;
+}
+
+/* 个人信息 */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #222;
+}
+
+.profile .chinese-name {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* 简介 */
+.bio {
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+/* 左右布局（教育经历） */
+.sep_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.sep_container_left {
+    flex: 1;
+    min-width: 250px;
+}
+
+.sep_container_right {
+    text-align: right;
+    white-space: nowrap;
+}
+
+
+
+/* Publication */
+.pub_item{
+    display: flex;
+    align-items: stretch;      /* 左右等高 */
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.pub_img{
+    flex: 0 0 28%;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.papericon{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;       /* 保持比例 */
+}
+
+.pub_info{
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.pub_title{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.pub_info a{
+    text-decoration: none;
+}
+
+.pub_info a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* 列表样式 */
+ul {
+    list-style-type: disc;
+    padding-left: 22px;
+    margin-top: 8px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* 页脚 */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* 移动端小屏优化 */
+@media (max-width: 768px) {
+    .pub_td1, .pub_td2 {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+    }
+    .sep_container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sep_container_right {
+        text-align: left;
+        margin-top: 3px;
+    }
+    .pub_item{
+        flex-direction: column;
+    }
+
+    .pub_img{
+        width: 100%;
+    }
+}
